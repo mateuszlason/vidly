@@ -1,16 +1,19 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { BrowserRouter as Router } from "react-router-dom";
+import App from "./App.js";
 import "./index.css";
-
-import reportWebVitals from "./reportWebVitals";
+import "react-toastify/dist/ReactToastify.css";
 import "bootstrap/dist/css/bootstrap.css";
 import "font-awesome/css/font-awesome.css";
-import Counter from "./components/counter";
+import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Counter />
-  </React.StrictMode>,
+  <React.Fragment>
+    <Router>
+      <App />
+    </Router>
+  </React.Fragment>,
   document.getElementById("root")
 );
 

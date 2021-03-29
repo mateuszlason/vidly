@@ -1,12 +1,12 @@
-import React, { Component, useLayoutEffect } from "react";
+import React from "react";
 
-const Like = (props) => {
+const Like = ({ liked, onClick }) => {
   let classes = "fa fa-heart";
-  if (!props.liked) classes += "-o";
+  if (!liked) classes += "-o";
   return (
     <i
       style={{ cursor: "pointer" }}
-      onClick={props.onLike}
+      onClick={onClick}
       className={classes}
       aria-hidden="true"
     ></i>
