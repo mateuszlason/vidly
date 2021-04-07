@@ -1,14 +1,14 @@
-import React, { Component } from "react";
-import { toast } from "react-toastify";
-import { Link } from "react-router-dom";
 import _ from "lodash";
-import { getMovies, deleteMovie } from "../services/movieService";
+import React, { Component } from "react";
+import { Link } from "react-router-dom";
+import { toast } from "react-toastify";
 import { getGenres } from "../services/genreService";
+import { deleteMovie, getMovies } from "../services/movieService";
 import { paginate } from "../utils/paginate";
-import Pagination from "./common/pagination";
 import ListGroup from "./common/listGroup";
-import MoviesTable from "./moviesTable";
+import Pagination from "./common/pagination";
 import SearchBox from "./common/searchBox";
+import MoviesTable from "./moviesTable";
 class Movies extends Component {
   state = {
     movies: [],
