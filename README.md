@@ -6,6 +6,8 @@
 
 The [vidly project](https://thawing-wildwood-91061.herokuapp.com/) is hosted on `Heroku Cloud Platform` and is connected to real API.
 
+Keep in mind it takes a little while to load API when you visit Vidly site.
+
 ## Foreword
 
 > While building this project, I learned the most important solutions and practices used when working with the **React.js** library.
