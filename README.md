@@ -1,4 +1,4 @@
-![cover](https://github.com/mateuszlason/vidly/blob/main/public/vidly.jpg)
+![cover](https://mateuszlason.github.io/vidly/vidly.jpg)
 
 # Vidly - online movie rental
 
